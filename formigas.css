@@ -5,25 +5,43 @@ body {
     grid-template-rows:auto 1000px 1fr;
     gap: 5px;
 
+    position: relative;
 }
 
-header {
-    grid-column: 2/3;
+p {
+    font-size: 20px;
+}
 
+h1 {
+    font-size: 50px;
 }
 
 header {
     text-align: center;
     font-size: 30px;
+    background-color: brown;
+    grid-column: 1/-1;
 }
 
 #pagina_inicial {
+    grid-column: 1 / -1; 
+
+    background-color: green; 
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr; 
+    gap: 15px;
+    
+    padding: 60px 0; 
+}
+
+#textoinicial {
     grid-column: 2/3;
+    text-align: center;
 }
 
 #titulo {
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .hero {
