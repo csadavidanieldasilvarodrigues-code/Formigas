@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-image: url('teste-padrão-sem-emenda-do-inseto-da-col-nia-da-formiga-do-vetor-64031065.webp');
+    background-size: 900px 900px;
+
+    background-position: 0 900px;
+
+    animation: moverFormigas 10s linear infinite;
+}
+
+@keyframes moverFormigas {
+        from {
+            background-position: 0 0;
+        }
+        to {
+            background-position: 0 200px; 
+        }
+}
